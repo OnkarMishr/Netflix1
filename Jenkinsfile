@@ -12,6 +12,6 @@ pipeline {
 	                 }}
 		  stage('Deployment'){
 		       steps {
-		            sh 'cp target/flipkart.war /home/onkar/Documents/Devops_Softawre/apache-tomcat-9.0.85/webapps'
+		            sh 'cp target/Netflix1.war /home/onkar/Documents/Devops_Softawre/apache-tomcat-9.0.85/webapps'
 			}}	
 }}
